@@ -19,6 +19,10 @@ body {
 
 }
 
+.title {
+  text-align: center;
+}
+
 #listImgs img:hover {
   position: relative;
   top: 25px;
