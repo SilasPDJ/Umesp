@@ -11,13 +11,17 @@ body {
 #listImgs {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 
 #listImgs img {
   margin: 1rem;
   width: 300px;
-
+  /* width: 100%; */
+  /* max-width: 400px; */
+  height: auto;
 }
 
 .title {
