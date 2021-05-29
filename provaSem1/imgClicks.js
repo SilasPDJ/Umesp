@@ -38,8 +38,8 @@ imgs.forEach(function (el, cont) {
         // detailsWritten.outerHTML = "<p>teste</p>"
 
         detailsWritten.innerHTML = `<h2 class="text-dark bg-warning">${pokeNomes[cont].textContent} </h2>`
-        detailsWritten.innerHTML += `<h3 class="text-white">Altura em metros: ${POKEMONS.heightMETERS[cont]}m </h3>`
-        detailsWritten.innerHTML += `<h3 class="text-white">Peso: ${POKEMONS.weightKG[cont]}kg </h3>`
+        detailsWritten.innerHTML += `<h3 class="text-white">Altura em metros: ${POKEMONS.heightMETERS[cont]} metros </h3>`
+        detailsWritten.innerHTML += `<h3 class="text-white">Peso em quilos: ${POKEMONS.weightKG[cont]}kg </h3>`
 
 
 
