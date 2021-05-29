@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    span {
+        color: red;
+    }
+
+    span>span {
+        color: blue;
+        /*Select all the span where the parent is a span*/
+    }
+
+    div.two span {
+        color: #fab321;
+    }
+</style>
+
+<body>
+    <div class="one">
+        <span>Span 1.
+            <span>Span 2.</span>
+        </span>
+    </div>
+
+    <div class="two">
+        <p>Span 1.
+            <span>Span 2.</span>
+        </p>
+    </div>
+
+</body>
+
+</html>
