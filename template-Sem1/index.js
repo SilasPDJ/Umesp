@@ -1,6 +1,6 @@
 const prefix = "/produtos/"
 let link_prefix = [".html"][0]
-let links = ["domestico", "moda", "variados"]
+let links = ["domestico", "moda", "eletronicos", "variados"]
 
 links = links.map(function (val, e) {
     return val + link_prefix;

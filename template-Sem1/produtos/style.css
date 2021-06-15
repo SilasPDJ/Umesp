@@ -1,118 +1,128 @@
-html{
+html {
     box-sizing: border-box;
 }
-body{background-color: rgba(133, 128, 128, 0.397);
-width: 100%;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 1000;
-margin: 0;
-min-height: 100vh;
-font-weight: 1000;
-display: flex;
-    
-    
-}
-.quote-container{
-width: 100%;
-height: 10%;
-background-color:rgb(253, 252, 252);
-}
-.quote-text{
-align-items: center;
-}
 
-
-h1{
-
-font-family: Basic;
-font-style: normal;
-font-weight: normal;
-font-size: 37px;
-line-height: 47px;
-text-indent: 6px;
-width: 70%;
-margin-top: 60%;
-margin-left: 10%;
-color: #FFFFFF;
-cursor: none;
-margin-top: 90%;
-margin-left: 10%;
-cursor: pointer;
+body {
+    background-color: rgba(133, 128, 128, 0.397);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    margin: 0;
+    min-height: 100vh;
+    font-weight: 1000;
+    display: flex;
 
 
 }
+
+.quote-container {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(253, 252, 252);
+}
+
+.quote-text {
+    align-items: center;
+}
+
+
+h1 {
+
+    font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 47px;
+    text-indent: 6px;
+    width: 70%;
+    margin-top: 60%;
+    margin-left: 10%;
+    color: #FFFFFF;
+    cursor: none;
+    margin-top: 90%;
+    margin-left: 10%;
+    cursor: pointer;
+
+
+}
+
 h2 {
-font-size: 40px;
-margin-left: 10%;
-cursor: pointer;
-}
-p{
-position: absolute;
-width: 181px;
-height: 46px;
-left: 1000px;
-top: 1px;
-font-family: Share;
-font-style: normal;
-font-weight: bold;
-font-size: 35px;
-line-height: 39px;
-text-align: center;
-text-indent: 6px;
-color: rgba(46, 46, 50, 0.75);
-cursor: pointer;
-
-}
-.coluna{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 5%;
-top: 180px;
-margin-bottom: 70%;
-
-background: url(./imagens/celular.jpg);
-border-radius: 15px;
+    font-size: 40px;
+    margin-left: 10%;
+    cursor: pointer;
 }
 
-.coluna-1{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 37%;
-top: 180px;
-margin-bottom: 70%;
-background: url(./imagens/computador.jpg);
-border-radius: 15px;
-  }
- .coluna-2{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 70%;
-top: 180px;
-margin-bottom: 70%;  
-background: url(./imagens/menina-com-fones-de-ouvido-ouvindo-musica_23-2148630891.jpg);
-border-radius: 15px;
-}
-.rodape{
-position: absolute;
-width: 100%;
-height: 88px;
-top: 135%;
-color: white;
+p {
+    position: absolute;
+    width: 181px;
+    height: 46px;
+    left: 1000px;
+    top: 1px;
+    font-family: Share;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 39px;
+    text-align: center;
+    text-indent: 6px;
+    color: rgba(46, 46, 50, 0.75);
+    cursor: pointer;
+
 }
 
-.quote-subtitulo{
-position: absolute;
-width: 100%;
-height: 100%;
-top: 25%;
+.coluna {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 5%;
+    top: 180px;
+    margin-bottom: 70%;
+
+    background: url(./imagens/celular.jpg);
+    border-radius: 15px;
 }
-h4{
+
+.coluna-1 {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 37%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/computador.jpg);
+    border-radius: 15px;
+}
+
+.coluna-2 {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 70%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/menina-com-fones-de-ouvido-ouvindo-musica_23-2148630891.jpg);
+    border-radius: 15px;
+}
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    top: 135%;
+    color: white;
+}
+
+.quote-subtitulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25%;
+}
+
+h4 {
     margin-top: -2%;
     font-size: 60px;
     margin-left: 35%;
@@ -121,8 +131,9 @@ h4{
     cursor: none;
 
 }
-.domestico{
-    
+
+.domestico {
+
     position: absolute;
     width: 320px;
     height: 518px;
@@ -131,100 +142,108 @@ h4{
     margin-bottom: 70%;
     background-image: url(./imagens/bjhgfiu.jpg);
     border-radius: 15px;
-    }
-    .domestico-1{
-     position: absolute;
-     width: 320px;
-     height: 518px;
-     left: 37%;
-     top: 180px;
-     margin-bottom: 70%;
-     background: url(./imagens/Captura\ de\ tela\ 2021-06-12\ 234537.png);
+}
+
+.domestico-1 {
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 37%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/Captura\ de\ tela\ 2021-06-12\ 234537.png);
     border-radius: 15px;
-     }
-    .domestico-2{
-     position: absolute;
-     height: 518px;
-     left: 70%;
-     width: 320px;
-     top: 180px;
-     margin-bottom: 70%;
+}
+
+.domestico-2 {
+    position: absolute;
+    height: 518px;
+    left: 70%;
+    width: 320px;
+    top: 180px;
+    margin-bottom: 70%;
     background: url(./imagens/dicas-de-decoração-para-sala-moderna-e-com-grandes-quadros-Foto-Pinterest.jpg);
     border-radius: 15px;
-    }
-.moda{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 5%;
-top: 180px;
-margin-bottom: 70%;   
-background: url(./imagens/menina.jpg);
-border-radius: 15px;
 }
-.moda-1{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 37%;
-top: 180px;
-margin-bottom: 70%;        
-background: url(./imagens/mulher.jpg);
-border-radius: 15px;
-}
-.moda-2{
-position: absolute;
-width: 320px;
-height: 518px;
-left: 70%;
-top: 180px;
-margin-bottom: 70%;         
-background: url(./imagens/homem.jpg);
-border-radius: 15px;
-}
-.variados{
-    
+
+.moda {
+
     position: absolute;
     width: 320px;
     height: 518px;
     left: 5%;
     top: 180px;
-    margin-bottom: 70%;        
+    margin-bottom: 70%;
+    background: url(./imagens/menina.jpg);
+    border-radius: 15px;
+}
+
+.moda-1 {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 37%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/mulher.jpg);
+    border-radius: 15px;
+}
+
+.moda-2 {
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 70%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/homem.jpg);
+    border-radius: 15px;
+}
+
+.variados {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 5%;
+    top: 180px;
+    margin-bottom: 70%;
     background: url(./imagens/construcaocivil-trabalhador-1024x665-400x600.png);
     border-radius: 15px;
-    }
-
-.variados-1{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 37%;
-top: 180px;
-margin-bottom: 70%;        
-background: url(./imagens/original.png);
-border-radius: 15px;
 }
 
-.variados-2{
-    
-position: absolute;
-width: 320px;
-height: 518px;
-left: 70%;
-top: 180px;
-margin-bottom: 70%;        
-background: url(./imagens/unnamed.jpg);
-border-radius: 15px;
+.variados-1 {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 37%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/original.png);
+    border-radius: 15px;
+}
+
+.variados-2 {
+
+    position: absolute;
+    width: 320px;
+    height: 518px;
+    left: 70%;
+    top: 180px;
+    margin-bottom: 70%;
+    background: url(./imagens/unnamed.jpg);
+    border-radius: 15px;
 
 }
-h1:hover{
-transform: translate(0,0.9rem);
-box-shadow: 0 0.1rem rgba(226, 53, 53, 0);
+
+h1:hover {
+    transform: translate(0, 0.9rem);
+    box-shadow: 0 0.1rem rgba(226, 53, 53, 0);
 }
-p:hover{
-transform: translate(0,0.9rem);
-box-shadow: 0 0.0.5rem rgba(226, 53, 53, 0); 
+
+p:hover {
+    transform: translate(0, 0.9rem);
+    box-shadow: 0 0.0.5rem rgba(226, 53, 53, 0);
 }
